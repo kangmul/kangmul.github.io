@@ -1,0 +1,35 @@
+.navbar-nav .nav-item {
+  color: rgb(0, 102, 166) !important;
+}
+
+.jumbotron {
+  height: 600px;
+  background-image: url("../img/jubot-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron h1.display-4 {
+  text-shadow: 1.5px 1.5px rgba(179, 210, 53, 0.6);
+  color: rgb(0, 102, 166);
+}
+
+.jumbotron p.lead {
+  text-shadow: 1.5px 1.5px rgba(179, 210, 53, 0.6);
+  color: rgb(0, 102, 166);
+}
+
+.logo-navbrand {
+  width: 70px;
+  height: 50px;
+}
+
+.judul {
+  width: 350px;
+  border-top: 3px solid rgba(179, 210, 53, 0.6);
+}
+
+h3 {
+  color: rgb(0, 102, 166);
+}
