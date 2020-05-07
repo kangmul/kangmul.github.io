@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar-nav .nav-item {
   color: rgb(0, 102, 166) !important;
 }
@@ -11,12 +15,12 @@
 }
 
 .jumbotron h1.display-4 {
-  text-shadow: 1.5px 1.5px rgba(179, 210, 53, 0.6);
+  text-shadow: 1px 1px rgba(179, 210, 53, 0.8);
   color: rgb(0, 102, 166);
 }
 
 .jumbotron p.lead {
-  text-shadow: 1.5px 1.5px rgba(179, 210, 53, 0.6);
+  text-shadow: 1px 1px rgba(179, 210, 53, 0.8);
   color: rgb(0, 102, 166);
 }
 
@@ -32,4 +36,13 @@
 
 h3 {
   color: rgb(0, 102, 166);
+}
+
+section#contact .card{
+  height: 100px;
+  width: 100px;
+}
+
+footer p {
+  font-size: 12px;
 }

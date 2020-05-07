@@ -1,22 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <title>Portofolio | Muluk D</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-      integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-      crossorigin="anonymous"
-    />
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
 
+  <title>Portofolio | Muluk D</title>
     <!-- bootstrap local -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 
@@ -28,26 +20,30 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+  <div class="container">
+  <a class="navbar-brand" href="#home"><img class="logo-navbrand" src="assets/img/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+    <div class="navbar-nav text-capitalize">
+      <a class="nav-item nav-link" href="#experiences">experiences</a>
+      <a class="nav-item nav-link" href="#portofolio">portofolio</a>
+      <a class="nav-item nav-link" href="#about">about</a>
+      <a class="nav-item nav-link" href="#contact">contact</a>
+    </div>
+  </div>
+  </div>
+</nav>
+<!-- navbar -->
+
+
+    <!-- navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"
-          ><img class="logo-navbrand" src="assets/img/logo.png" alt=""
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNavAltMarkup"
-        >
+        
           <div class="navbar-nav text-capitalize">
             <a class="nav-item nav-link" href="#experiences">experinces</a>
             <a class="nav-item nav-link" href="#portofolio">portofolio</a>
@@ -56,11 +52,11 @@
           </div>
         </div>
       </div>
-    </nav>
+    </nav> -->
     <!-- akhir navbar -->
 
     <!-- header -->
-    <div class="jumbotron">
+    <div class="jumbotron" id="home">
       <div class="container">
         <h1 class="display-4 text-right mt-5">Muluk Dharmayana</h1>
         <p class="lead text-right">
@@ -72,7 +68,7 @@
     <!-- akhir header jumbotron  -->
 
     <!-- section experinces -->
-    <section id="experiences" class="p-4 mb-5">
+    <section id="experiences" class="p-5 mb-5">
       <div class="container">
         <h3 class="text-center mt-5 text-capitalize">experiences</h3>
         <hr class="judul" />
@@ -125,13 +121,13 @@
     <!-- akhir section home -->
 
     <!-- section portofolio -->
-    <section id="portofolio" class="p-4 bg-light pb-5">
+    <section id="portofolio" class="p-5 bg-light pb-5">
       <div class="container">
         <h3 class="text-center mt-5 text-capitalize">portofolio</h3>
         <hr class="judul" />
         <div class="row mt-5">
-          <div class="col-sm-4 mt-4">
-            <a href="" class="thumbnail mt-3">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+            <a href=" https://kangmul.github.io/get-rest-api_IMDB_MOVIES/" class="thumbnail mt-3">
               <img
                 src="assets/img/restfull_imbd.png"
                 class="img-thumbnail img-fluid"
@@ -139,7 +135,7 @@
               />
             </a>
           </div>
-          <div class="col-sm-4 mt-4">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
             <a href="" class="thumbnail mt-3">
               <img
                 src="assets/img/porto1.PNG"
@@ -148,7 +144,7 @@
               />
             </a>
           </div>
-          <div class="col-sm-4 mt-4">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
             <a href="" class="thumbnail mt-3">
               <img
                 src="assets/img/porto1.PNG"
@@ -157,7 +153,7 @@
               />
             </a>
           </div>
-          <div class="col-sm-4 mt-4">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
             <a href="" class="thumbnail mt-3">
               <img
                 src="assets/img/porto1.PNG"
@@ -166,7 +162,7 @@
               />
             </a>
           </div>
-          <div class="col-sm-4 mt-4">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
             <a href="" class="thumbnail mt-3">
               <img
                 src="assets/img/1adminpage.PNG"
@@ -175,7 +171,7 @@
               />
             </a>
           </div>
-          <div class="col-sm-4 mt-4">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
             <a href="" class="thumbnail mt-3">
               <img
                 src="assets/img/porto1.PNG"
@@ -189,12 +185,12 @@
     </section>
     <!-- akhir section home -->
 
-    <section id="about" class="p-4 pb-5 mb-5">
+    <section id="about" class="p-5 mb-5">
       <div class="container">
         <h3 class="text-center mt-5 text-capitalize">about</h3>
         <hr class="judul mb-4" />
         <div class="row mt-5">
-          <div class="col-4">
+          <div class="col-lg-4 col-md-4 col-sm-12 text-center">
             <figure class="figure">
               <img
                 src="assets/img/muluk.jpg"
@@ -207,55 +203,70 @@
             </figure>
           </div>
 
-          <div class="col-4">
-            <p>Nama : Muluk Dharmayana</p>
-            <p>Tempat tanggal lahir : bandung, 18 Agustus 1986</p>
-            <p>Jenis kelamin : laki-laki</p>
-            <p>status : menikah</p>
+          <div class="col-sm-12 col-lg-8 ">
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-4 col-form-label col-form-label-sm">Nama</label>
+              <div class="col-sm-8">
+                      <input class="form-control form-control-sm form-control-plaintext readonly" value="Muluk Dharmayana">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-4 col-form-label col-form-label-sm">Tempat & tanggal lahir</label>
+              <div class="col-sm-8">
+                      <input class="form-control form-control-sm form-control-plaintext readonly" value="Bandung, 18 Agustus 1986">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-4 col-form-label col-form-label-sm">Jenis kelamin </label>
+              <div class="col-sm-8">
+                      <input class="form-control form-control-sm form-control-plaintext readonly" value="Laki - laki">
+              </div>
+            </div>
+              
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-4 col-form-label col-form-label-sm">Status</label>
+              <div class="col-sm-8">
+                      <input class="form-control form-control-sm form-control-plaintext readonly" value="Menikah">
+              </div>
+            </div>
+              
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-4 col-form-label col-form-label-sm">Alamat</label>
+              <div class="col-sm-8">
+                      <input class="form-control form-control-sm form-control-plaintext readonly" value="Kp. Sukamanah II No.36 Bandung">
+              </div>
+            </div>
+              
+           
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="p-4 pb-5 mb-5">
+    <section id="contact" class="p-5 mb-5 bg-light">
       <div class="container">
         <h3 class="text-center mt-5 text-capitalize">contact</h3>
         <hr class="judul" />
-        <div class="row mt-5">
+        <div class="row mt-5 justify-content-between">
           <div class="col-4">
-            <div class="card" style="width: 20rem;">
-              <img class="card-img-top" src="..." alt="instagram" />
+            <div class="card">
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+                <a href="https://github.com/kangmul"><img src="assets/img/vektor gthub.png" alt="https://github.com/kangmul"></a>
+              </div>
+              asdasd
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                <a href="https://api.whatsapp.com/send?phone=6285318474806"><img src="assets/img/whatsapp-seeklogo_64.png" alt="whatsapp"></a>
               </div>
             </div>
           </div>
           <div class="col-4">
-            <div class="card" style="width: 20rem;">
-              <img
-                class="card-img-top rounded"
-                src="assets/img/whatsapp-seeklogo.png"
-                alt="whatsapp"
-              />
+            <div class="card">
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card" style="width: 20rem;">
-              <img class="card-img-top" src="..." alt="gmail" />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+                <a href="https://www.instagram.com/lukydharmayana/?hl=id"><img src="assets/img/instagram.png" alt="instagram"></a>
               </div>
             </div>
           </div>
@@ -267,22 +278,33 @@
       <p class="text-muted">Muluk Dharmayana 2020</p>
     </footer>
 
+    <!-- bootstrap 4.4 -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-      integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
-      integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-      crossorigin="anonymous"
-    ></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script> 
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+
+        <!-- local jquery -->
+        <script src="assets/jquery/jquery-3.4.1.js"></script>
+
+      <!-- jquery easing -->
+      <script src="assets/jquery/jquery.easing.1.3.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+      <!-- bootstrap 4.4 -->
+
+    <!-- local jquery -->
+    <script src="assets/jquery/popper.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    
+
+    <script src="assets/script/myscript.js"></script>
   </body>
 </html>
