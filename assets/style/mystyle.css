@@ -15,12 +15,12 @@ html {
 }
 
 .jumbotron h1.display-4 {
-  text-shadow: 1px 1px rgba(179, 210, 53, 0.8);
+  text-shadow: 1px 1px 10px rgba(252,148,120, 0.8);
   color: rgb(0, 102, 166);
 }
 
 .jumbotron p.lead {
-  text-shadow: 1px 1px rgba(179, 210, 53, 0.8);
+  text-shadow: 1px 1px 5px  rgba(252,148,120, 0.8);
   color: rgb(0, 102, 166);
 }
 
@@ -36,6 +36,31 @@ html {
 
 h3 {
   color: rgb(0, 102, 166);
+}
+
+
+section#portofolio{
+  background-image: url('../img/background-Nh4Sxasye24-unsp.png');
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 180px;
+  position: relative;
+}
+
+section#portofolio h3{
+  text-shadow: 2px 2px 6px rgb(3, 241, 23);
+}
+
+
+/* section#portofolio .container{
+  position: ;
+} */
+
+
+section#contact{
+  margin-bottom: 200px;
+  height: 400px;
 }
 
 section#contact .card{
